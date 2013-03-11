@@ -1,0 +1,137 @@
+body
+{
+	background: url(http://bendiksens.net/new/images/background.png);
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+
+.container
+{
+	width: 800px;
+	margin: 20px auto;
+}
+
+.header
+{
+	background: url(http://bendiksens.net/new/gallery/wall08833.jpg);
+	background-size:800px 200px;
+	border: 2px solid black;
+	text-align: center;
+	
+}
+
+.header img
+{
+	border: none;
+	
+}
+
+.header a
+{
+	text-decoration: none;
+}
+
+.meny
+{
+	height: 20px;
+	background-color: black;
+	text-align: center;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+.meny a
+{
+	padding: 10px;
+	color: #00589f;
+	text-decoration: none;
+}
+
+a
+{
+	color: #00589f;
+	text-decoration: none;
+}
+
+a:hover 
+{
+	text-decoration: none;
+	color: #D7D7BD;
+}
+
+
+
+.content
+{
+	background-color: #CCD4DC;
+	border: 2px solid black;
+	border-bottom: none;
+	padding: 20px 20px 40px 20px;
+	
+}
+
+.innlegg
+{
+	
+	background-color: #A3AAB0;
+	border: 1px dotted black;
+	padding: 0px 10px 10px 10px;
+	width: 700px;
+	margin: 0px auto;
+	margin-bottom: 30px;
+}
+
+.about
+{
+	position:relative;
+	background-color: #A3AAB0;
+	border: 1px dotted black;
+	padding: 0px 10px 10px 10px;
+	width: 700px;
+	margin: 0px auto;
+	min-height: 250px;
+	margin-bottom: 30px;
+}
+
+.about img
+{
+	border: 1px solid black;
+	position:absolute;
+	right:0px;
+	height: 200px;
+	width: 150px;
+	margin: 20px 50px;
+}
+
+.innleggdato
+{
+	font-size: 10px;
+	color: blue;
+	margin: -20px 0px 10px 0px;
+}
+
+.footer
+{
+	background-color: #CCD4DC;
+	text-align: center;
+	font-size: 10px;
+	color: black;
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	padding-bottom: 20px;
+}
+
+.loggin
+{
+	text-align: center;
+	background-color: #A3AAB0;
+	border: 1px dotted black;
+	width: 300px;
+	height: 180px;
+	margin: 0px auto;
+}
+
+.login h3
+{
+	margin: 10px;
+}
